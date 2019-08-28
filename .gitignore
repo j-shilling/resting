@@ -1,6 +1,15 @@
+# CCLS language server cache
 .ccls-cache
-CMakeCache.txt
+
+# CMake Generated Files
+CMakeChache.txt
 CMakeFiles
+CTestTestfile.cmake
+Testing
 Makefile
 cmake_install.cmake
-resting
+CMakeCache.txt
+
+# Compiled binaries, libraries, and object files
+src/libresting.a
+test/request_test
