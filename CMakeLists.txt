@@ -6,6 +6,9 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Debug)
 endif()
 
+# Add public header files
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
 # Try to find the cmocka testing library
 find_library(CMOCKA cmocka)
 if(CMOCKA)

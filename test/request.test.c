@@ -4,6 +4,8 @@
 
 #include <cmocka.h>
 
+#include <resting/request.h>
+
 static void null_test_success(void **state) { (void)state; }
 
 int main(void) {
